@@ -1,1 +1,21 @@
-body{background-color: red;}
+html,body{
+    height: 100%;
+    margin:0;
+}
+
+.content-wrap{
+    height: 100%;
+    border:3px solid green;
+}
+.content-wrap >div{
+    border:1px red solid;
+    height: 100%;
+}
+
+
+
+
+.tailgn-left{text-align: left}
+.tailgn-center{text-align: center}
+.tailgn-right{text-align: right}
+.hedding-group{border:1px }
